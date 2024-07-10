@@ -1,0 +1,134 @@
+/* #region manpowerInfo */
+.manpowerInfo{
+    color:black;
+    font-size: 10px;
+    padding-bottom: 100px;
+}
+.manpowerInfo-flight{
+    margin-left: 3%;
+    width: 90%;
+}
+.manpowerInfo-flight .commonRow{
+    margin-top: 3px;
+    height: 20px;
+    line-height: 20px;
+}
+.manpowerInfo-flight .commonTitle{
+    width: 40%;
+    height: 100%;
+}
+/* special setting for flight number */
+.flightTitle{
+    color:rgb(97, 97, 97);
+    font-size: 18px;
+    font-weight: bold;
+}
+.flightVal{
+    color:rgb(97, 97, 97);
+    font-size: 24px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.flightRow{
+    margin-bottom: 20px;
+}
+/* sp,ld,eo,rw row */
+.manpowerInfo-manpower{
+    margin-top:20px;
+}
+/* every row */
+.manpowerInfo-manpower .commonRow{
+    padding: 15px 30px;
+    border-bottom: 1.5px solid black;
+}
+.manpowerInfo-manpower .commonRow:first-child{
+    margin-top: 3px;
+}
+/* row title div (left) */
+.manpowerInfo-manpower .commonTitle{
+    width: 10%;
+}
+/* row content div (right) */
+.manpowerInfo-manpower .commonChildDiv{
+    width: 90%;
+}
+/* row content div (right) */
+.manpowerInfo-manpower .commonChildRow{
+    padding: 5px 0;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+/* teamnumber and at work status */
+.manpowerInfo-manpower .commonChildStatus{
+    width: 30%;
+}
+/* teamnumber */
+.commonChildStatus .commonChildNum{
+    width: 70%;
+}
+/* at work status */
+.manpowerInfo-manpower .commonChildType{
+    width: 5%;
+}
+.manpowerInfo-manpower  .redLight{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 0.5px solid rgb(0, 0, 0);
+    background-color: red;
+}
+.manpowerInfo-manpower  .greenLight{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 0.5px solid rgb(0, 0, 0);
+    background-color: green;
+}
+/* task */
+.manpowerInfo-manpower .commonChildVal{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* greyDiv */
+.greyDiv{
+    display: none;
+    position: fixed;
+    left: 50%;
+    bottom:80px;
+    transform: translate(-50%,-50%);
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgb(150, 150, 150);
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5%;
+}
+/* refresh button */
+.refreshBtn button, .backBtn button{
+    position:fixed;
+    display: block;
+    width: 100%;
+    height: 40px;
+}
+.refreshBtn button{
+    bottom:40px;
+}
+.uk-button-default{
+    background-color: white;
+}
+.uk-button-default:hover{
+    background-color: rgb(206, 206, 206)
+}
+/* back button */
+.backBtn button{
+    bottom:0;
+}
+
+/* endregion */

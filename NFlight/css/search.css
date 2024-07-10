@@ -1,0 +1,132 @@
+body{
+    overflow: hidden;
+    overflow-x: scroll;
+}
+/* #region manpower */
+.manpower .search{
+    height: 30px; 
+}
+/* search input */
+.manpower .search .input{
+    display: inline-block;
+    border: 1px  solid #e5e5e5;
+    width: 200px;
+    height: 100%;
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.manpower .search .input:focus{
+    box-sizing: border-box;
+    border: 1px solid #39f;
+    outline: none !important;
+}
+/* search clear button */
+.manpower .search .clearBtn{
+    height: 30px;
+    line-height: 30px;
+    background-color: white;
+}
+/* refresh button */
+.manpower #refresh{
+    cursor:pointer;
+    margin: 0 20px 0 10px;
+}
+/* available box */
+.available{
+    width: 100%;
+    margin-bottom: 5px;
+    color:rgb(95, 95, 95);
+    font-weight: bold;
+    font-size: 12px;
+}
+.available-container{
+    width: 100%;
+}
+.available-table{
+    position: relative;
+}
+.available th,.available td{
+    border: 1.5px solid rgb(95, 95, 95);
+    line-height: 30px;
+    width: 50px;
+    height: 30px;
+}
+.available th:first-child{
+    border: 0px;
+}
+.available td{
+    text-align: center;
+}
+/* grey date row */
+.manpower .flight{
+    width: 100vw; 
+    height: 75vh;
+    overflow: scroll;
+    border-top: 1px solid rgba(175, 175, 175, 0.582);
+}
+.manpower .flight-date{
+    background-color: rgb(175, 175, 175);
+    color:white;
+}
+/* each flight row */
+.flight .row{
+    font-size: 16px;
+    border:1px solid rgba(55, 55, 55, 0.473);
+    height: 80px;
+    margin: 10px;
+}
+.flight .row:hover{
+    cursor: pointer;
+    border: 1px solid green;
+}
+.flight .row:focus{
+    border: 1px solid green;
+}
+.flight .row:last-child{
+    margin-bottom: 40px;
+}
+.flight .row .arr-time,.flight .row .dep-time,
+.flight .row .arr-flight,.flight .row .dep-flight{
+    margin-left: 5px;
+    width: 12%;
+    height: 100%;
+}
+.flight .row .arr-time{
+    margin-left: 0;
+}
+.arr-time .est, .arr-time .time-text,
+.dep-time .est, .dep-time .time-text{
+    height: 50%;
+}
+.org-num{
+    height: 100%;
+    margin-left: 10px;
+}
+.info{
+    width: 25%;
+    height: 100%;
+}
+.info .chock{
+    font-size: 12px;
+    height: 50%;
+}
+.info .stand, .info .aircraft{
+    width: 50%;
+    height: 50%;
+}
+.flight .date-row{
+    background-color: grey;
+    color:white;
+    height: 20px;
+}
+/* next button */
+.manpower .nextBtn button{
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    height:30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+/* #endregion */
